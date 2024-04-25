@@ -11,7 +11,7 @@ const Index = () => {
   ];
 
   return (
-    <Box p={5} shadow="md" borderWidth="1px">
+    <Box p={3} shadow="md" borderWidth="1px" maxW="sm">
       <Heading mb={4}>Stock Market Overview</Heading>
       <List spacing={3}>
         {stocks.map((stock) => (
